@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/margin"
+        android:paddingTop="5dp"
+        android:text="Mon compte"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/favoris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Mes favoris" />
+
+    <TextView
+        android:id="@+id/events"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Mes évènements" />
+
+    <TextView
+        android:id="@+id/params"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Mes paramètres" />
+
+    <TextView
+        android:id="@+id/persos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Mes infos personnelles" />
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/butt_later"
+        android:text="Se déconnecter"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

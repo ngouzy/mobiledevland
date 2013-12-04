@@ -1,0 +1,24 @@
+Utilisation de Parse
+--------------------
+
+https://parse.com/
+compte : ddp.lannion@gmail.com
+password : ddplannion
+
+-> Gère les pushs, utilisateurs, news, contacts, la pub, les crédits et les jobs
+
+Pour les pushs :
+-> push générique, faire un send to everyone
+-> Push pub, send to "segment" puis sélectionner le channel "Pub" et message en json du type { "action": "com.mobidevland.SHOW_PUB" }
+-> Push news, send to "segment" puis sélectionner le channel "Article" et message en json du type 
+	{ "alert": "titre de la news",
+	"idNews": "6j0pQBMpiJ" }
+
+Utilisation de Google Analytics
+-------------------------------
+
+https://www.google.com/analytics
+compte : ddp.lannion@gmail.com
+password : ddplannion
+
+les infos d'aujourd'hui sont visbles dans la section temps réel

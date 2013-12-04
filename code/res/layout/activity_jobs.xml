@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/margin"
+        android:paddingTop="5dp"
+        android:text="Jobs"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/illustration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pict_banner" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:text="24/11/2013"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="left"
+            android:paddingRight="10dp"
+            android:text="237 offres"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Vous êtes développeur ? Vous n&apos;avez pas de problème pou trouver un job ! Mais êtes-vous à la hauteur des jobs en OR ? Ici, il n&apos;y a que des postes pour les meilleurs des meilleurs !" />
+
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Rechercher" />
+
+    <TextView
+        android:id="@+id/last_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Dernières recherches" />
+
+    <TextView
+        android:id="@+id/alerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Mes alertes" />
+
+    <TextView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin20"
+        android:layout_marginRight="@dimen/margin20"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/field_1"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin20"
+        android:text="Mon CV" />
+
+</LinearLayout>

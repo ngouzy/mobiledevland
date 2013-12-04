@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:orientation="vertical"
+    tools:context=".MBTouchActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header" >
+
+        <Button
+            android:id="@+id/infos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin"
+            android:background="@drawable/butt_home"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/persos_edit_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="modifier"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingBottom="5dp"
+        android:paddingLeft="@dimen/margin"
+        android:paddingTop="5dp"
+        android:text="Mon Compte"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="Mes infos personnelles"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:id="@+id/persos_form"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/persos_firstname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prénom" />
+
+        <EditText
+            android:id="@+id/persos_lastname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom de famille" />
+
+        <EditText
+            android:id="@+id/persos_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/persos_company"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Société ou organisme" />
+
+        <EditText
+            android:id="@+id/persos_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse" />
+
+        <EditText
+            android:id="@+id/persos_zip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Code postal" />
+
+        <EditText
+            android:id="@+id/persos_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ville" />
+    </LinearLayout>
+
+</LinearLayout>

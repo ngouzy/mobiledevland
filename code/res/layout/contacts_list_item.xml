@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/contact_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/pict_profil_display" />
+
+    <ImageView
+        android:id="@+id/contact_led"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/contact_icon"
+        android:layout_alignTop="@+id/contact_icon"
+        android:src="@drawable/led_blue" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/contact_icon"
+        android:text="Prénom et Nom"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contact_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_name"
+        android:layout_toRightOf="@+id/contact_icon"
+        android:maxLines="1"
+        android:text="Nom de la société"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/contact_favoris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_company"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/contact_icon"
+        android:src="@drawable/icon_favoris" />
+
+    <ImageView
+        android:id="@+id/contact_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_company"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/contact_favoris"
+        android:src="@drawable/icon_chat_normal" />
+
+    <ImageView
+        android:id="@+id/contact_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_company"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/contact_chat"
+        android:src="@drawable/icon_add_normal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/arrow_list" />
+
+</RelativeLayout>

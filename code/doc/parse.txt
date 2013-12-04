@@ -1,0 +1,14 @@
+App name : MOBIDEVLAND
+App id : xfl7TlNoHQ8vAfsQaxPC8b8spetGl25P2OgjbQFO
+
+
+
+
+
+{ "action": "com.mobidevland.SHOW_PUB" }
+
+
+
+
+{ "alert": "titre de la news",
+"idNews": "6j0pQBMpiJ" }

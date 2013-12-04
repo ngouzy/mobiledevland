@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- splashscreen in second -->
+    <integer name="splashScreenTime">1</integer>
+    <integer name="pubScreenTime">2</integer>
+    
+    <string name="advertisingUrl">http://auroreetbenoit.files.wordpress.com/2013/11/advertising.png</string>
+    
+   
+</resources>
